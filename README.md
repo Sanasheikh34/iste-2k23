@@ -2,6 +2,49 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Folder Structure
+```
+.
+├── build
+│   ├── asset-manifest.json
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   ├── robots.txt
+│   └── static
+│       ├── css
+│       │   ├── main.073c9b0a.css
+│       │   └── main.073c9b0a.css.map
+│       ├── js
+│       │   ├── 787.a170ea31.chunk.js
+│       │   ├── 787.a170ea31.chunk.js.map
+│       │   ├── main.77d3552c.js
+│       │   ├── main.77d3552c.js.LICENSE.txt
+│       │   └── main.77d3552c.js.map
+│       └── media
+│           └── logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg
+├── package.json
+├── package-lock.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── README.md
+└── src
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── index.css
+    ├── index.js
+    ├── logo.svg
+    ├── reportWebVitals.js
+    └── setupTests.js
+```
 ## Available Scripts
 
 In the project directory, you can run:
