@@ -1,11 +1,25 @@
-import React, { useContext } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/home';
+import ImageGalleryPage from './pages/ImageGalleryPage';
+import GalleryPageWrapper from './components/GalleryPageWrapper';
 
 const App = () => {
 
   return (
-    <div className="app">
-      <h1>My App</h1>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route
+          path="/gallery"
+          element={
+            <GalleryPageWrapper>
+              <ImageGalleryPage />
+            </GalleryPageWrapper>
+          }
+        />
+      </Routes>
+    </Router>
   );
 };
 
