@@ -1,5 +1,23 @@
 const itemData = [
     {
+      img: 'https://i.ibb.co/3BqcFNL/IMG-1497.jpg',
+      title: 'Hult Prize 2k23',
+      author: '@ISTE',
+      featured: true,
+    },
+    {
+      img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+      title: 'Breakfast',
+      author: '@bkristastucchio',
+      featured: true,
+    },
+    {
+      img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+      title: 'Breakfast',
+      author: '@bkristastucchio',
+      featured: true,
+    },
+    {
       img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
       title: 'Breakfast',
       author: '@bkristastucchio',
