@@ -3,10 +3,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/home';
 import ImageGalleryPage from './pages/ImageGalleryPage';
 import GalleryPageWrapper from './components/GalleryPageWrapper';
+import DarkMode from './components/DarkMode/DarkMode';
 
 const App = () => {
 
   return (
+    <>
+    <DarkMode />
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -20,6 +23,7 @@ const App = () => {
         />
       </Routes>
     </Router>
+    </>
   );
 };
 
