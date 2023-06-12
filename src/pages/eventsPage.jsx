@@ -7,7 +7,7 @@ const eventsPage = () => {
           <h1 className="logo">ISTE-NITH</h1>
           <nav className="nav">
             <ul className="nav-list">
-              <DarkMode />
+              {/* <DarkMode /> */}
               <li className="nav-item"><a href='/blogs'>Blogs</a></li>
               <li className="nav-item"><a href='/members'>Members</a></li>
               <li className="nav-item"><a href='/gallery'>Gallery</a></li>
@@ -18,7 +18,7 @@ const eventsPage = () => {
         </header>
         <section className="hero">
           <div className="hero-content">
-            <img alt='logo' style={{ width: 100 }} src={String(logo)} />
+            {/* <img alt='logo' style={{ width: 100 }} src={String(logo)} /> */}
             <h2 className="hero-title">ISTE-NITH</h2>
             <p className="hero-description">
               Indian Society for Technical Education is a college society dedicated to promoting technical education and fostering a spirit of innovation among students.
@@ -52,7 +52,7 @@ const eventsPage = () => {
             </div>
             <div className="event-item">
               <h3>Prarambh</h3>
-              <p>Date and Time: August 5, 2023 at 3 PM</p>
+              <p>Date and Time: Augus t 5, 2023 at 3 PM</p>
               <p>Venue: Seminar Hall</p>
             </div>
           </div>
