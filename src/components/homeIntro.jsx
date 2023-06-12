@@ -1,6 +1,5 @@
 import React from 'react';
 import Logo from '../static/images/iste-logo-blue.png';
-// import './homeIntro.css'; // Import the CSS file for styling
 import GraphicAnimation from './graphicAnimation';
 import animationData from "../static/svgs/intro-animation-light.json"
 
@@ -14,7 +13,7 @@ const HomeIntro = () => {
           <h1>ISTE</h1>
         </div>
         <div className="right-content">
-        {/* <GraphicAnimation animationData={animationData} /> */}
+        <GraphicAnimation animationData={animationData} />
           {/* Add content for the right column */}
         </div>
       </div>
