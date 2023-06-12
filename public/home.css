@@ -1,0 +1,54 @@
+.container-fluid {
+    padding: 2% 5% 6%;
+  }
+  
+
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .left-content,
+  .right-content {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .right-content {
+    align-items:center ;
+    
+  }
+  
+  .intro-logo {
+    width: 14rem;
+    margin-bottom: 20px;
+  }
+  
+  .intro-container h1 {
+    font-size: 8rem;
+  }
+  
+  .right-text {
+    font-size: 1.5rem;
+  }
+  
+  /* Media query for screens less than 768px */
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .left-content,
+    .right-content {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+  
+    .right-content {
+      text-align: center;
+    }
+  }
+  
