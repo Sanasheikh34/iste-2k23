@@ -126,7 +126,8 @@ list-style-type: none;
       top: 10%;
       transition: all 0.5s ease-in-out;
       width: 100%;
-      background-color: white;
+      background: transparent;
+      background-color: var(--background-color);
       padding: 0; /* Added padding to remove default padding */
       margin: 0; /* Added margin to remove default margin */
     }

@@ -6,7 +6,6 @@ import EventPage from "./pages/eventsPage"
 import MembersPage from "./pages/membersPage.jsx"
 import ImageGalleryPage from './pages/ImageGalleryPage';
 import GalleryPageWrapper from './components/GalleryPageWrapper';
-import DarkMode from './components/DarkMode/DarkMode';
 import Navbar from './components/navbar';
 
 const App = () => {
