@@ -1,7 +1,7 @@
 {
   "name": "iste-2k23",
   "version": "0.1.0",
-  "homepage": "https://github.com/swastkk/iste-2k23",
+  "homepage": "https://swastkk.github.io/iste-2k23",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
