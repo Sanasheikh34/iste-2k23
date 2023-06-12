@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../static/images/iste-logo-blue.png';
 import GraphicAnimation from './graphicAnimation';
 import animationData from "../static/svgs/intro-animation-light.json"
-
+import MessageWidget from './ChatBot';
 
 const HomeIntro = () => {
   return (
@@ -17,6 +17,7 @@ const HomeIntro = () => {
           {/* Add content for the right column */}
         </div>
       </div>
+      <MessageWidget />
     </div>
   );
 };
