@@ -10,17 +10,25 @@
   --font-size-16xl: 35px;
 
   /* Colors */
+  --color-red : #E8505B;
+  --color-blue : #4E95FE;
+  --color-dark-blue : #02275e;
+  --color-yellow : #FFD966;
+  --color-purple: #892be0;
+  --color-dark-purple: #33085c;
+  --color-green : #00D085;
+  
+  /* Theme Colors */
   --body-background : #fff;
   --body_color : #000;
   --link-color : navy;
   --color-text-primary: #121212;
   --color-text-secondary: #191919;
   --color-text-tertiary: #2e2e2e;
-  --color-red : #E8505B;
-  --color-blue : #4E95FE;
-  --color-yellow : #FFD966;
-  --color-purple: #632F93;
-  --color-green : #00D085;
+  --scroll-start-color : var(--color-blue);
+  --scroll-end-color : var(--color-dark-blue);
+
+
   
 }
 
@@ -31,6 +39,9 @@
   --color-text-primary: #dddddd;
   --color-text-secondary: #bfbfbf;
   --color-text-tertiary: #7e7e7e;
+  --scroll-start-color : var(--color-purple);
+  --scroll-end-color : var(--color-dark-purple);
+
 
 }
 
@@ -50,4 +61,15 @@ body{
 
 .gallery-page{
   overflow: hidden;
+}
+
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background: var(--scroll-end-color);
+  background: -webkit-linear-gradient(0deg, var(--scroll-end-color) 0%, var(--scroll-start-color) 100%);
+  background: linear-gradient(0deg, var(--scroll-end-color) 0%, var(--scroll-start-color) 100%);
+  border-radius: 8px;
 }

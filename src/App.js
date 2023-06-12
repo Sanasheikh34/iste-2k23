@@ -7,14 +7,19 @@ import MembersPage from "./pages/membersPage.jsx"
 import ImageGalleryPage from './pages/ImageGalleryPage';
 import GalleryPageWrapper from './components/GalleryPageWrapper';
 import Navbar from './components/navbar';
+import Headroom from 'react-headroom';
+import AnimatedCursor from './components/animatedCursor';
 
 const App = () => {
 
   return (
     <>
     {/* <DarkMode /> */}
+    <AnimatedCursor />
     <Router>
-    <Navbar />
+    <Headroom>
+      <Navbar />
+    </Headroom>
       <Routes>
       
         <Route path="/" element={<HomePage />} />
@@ -31,6 +36,7 @@ const App = () => {
         />
       </Routes>
     </Router>
+
     </>
   );
 };
