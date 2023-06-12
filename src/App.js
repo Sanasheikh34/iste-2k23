@@ -9,7 +9,6 @@ const App = () => {
 
   return (
     <>
-    <DarkMode />
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
