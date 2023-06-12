@@ -10,7 +10,7 @@ const HomePage = () => {
     <HomeIntro />
     {/* <ResourceAnimation /> */}
     </div>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;
