@@ -25,7 +25,7 @@ const MessageWidget = () => {
         </div>
 
         <div className="contact-form" id="contact-form">
-          <form action="/message" method="post">
+          <form action="https://formspree.io/f/mvoneoqo" method="post"> 
             <input type="text" required placeholder="Name" name="name" className="contact-box" />
             <input type="email" required placeholder="Email" name="email" className="contact-box" />
             <textarea name="message" required placeholder="Message" className="contact-box message-box"></textarea>
