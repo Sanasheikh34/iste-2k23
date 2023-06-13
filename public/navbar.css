@@ -65,7 +65,7 @@ list-style-type: none;
     justify-content: space-between;
     align-items: center;
     height: 10vh;
-    box-shadow: rgba(111, 16, 125, 0.23) 0px 30px 30px -20px;
+    /* box-shadow: rgba(111, 16, 125, 0.23) 0px 30px 30px -20px; */
     padding: 0 20px; /* Added padding for spacing */
   }
   

@@ -2,7 +2,6 @@
     padding: 2% 5% 6%;
   }
   
-
   .row{
     display: flex;
     flex-wrap: wrap;
@@ -34,6 +33,72 @@
     font-size: 1.5rem;
   }
   
+  /* About Us */
+
+  /* .about-us-container{
+    height: 100vh;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    background-image: url(../src/static/images/teamiste-jan2k23.webp);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .about-us-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: url(../src/static/images/teamiste-jan2k23.webp);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(3px);
+
+  } */
+
+  .about-us-container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../src/static/images/teamiste-jan2k23.webp");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .blur-div {
+  }
+  
+  
+  /* .blur-div{
+    backdrop-filter: blur(3px);
+  } */
+  .about-us-box{
+    backdrop-filter: blur(3px);
+    width: 80%;
+    margin: auto;
+    padding: 2% 5% 3%;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .about-us-box h2{
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: var(--font-section-heading);
+  }
+  .about-us-box p{
+    margin-bottom: 10px;
+    color: var(--color-white-text);
+    font-size: var(--font-subheading);
+  }
+
   /* Media query for screens less than 768px */
   @media (max-width: 768px) {
     .row {

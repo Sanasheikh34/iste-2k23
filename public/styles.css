@@ -8,6 +8,9 @@
   --font-size-8xl: 27px;
   --font-size-41xl: 60px;
   --font-size-16xl: 35px;
+  --font-section-heading: 2.5rem;
+  --font-subheading : 1.3rem;
+  --font-size-paragraph : 0.7rem;
 
   /* Colors */
   --color-red : #E8505B;
@@ -17,6 +20,7 @@
   --color-purple: #892be0;
   --color-dark-purple: #33085c;
   --color-green : #00D085;
+  --color-white-text : #dddddd;
   
   /* Theme Colors */
   --body-background : #fff;
