@@ -1,5 +1,6 @@
 import React from 'react';
 import bgImg from "../../static/images/teamiste-jan2k23.webp";
+import { Parallax } from 'react-parallax';
 
 const aboutUs = () => {
   const divStyle = {
@@ -10,7 +11,8 @@ const aboutUs = () => {
 
   return (
     // <div style={divStyle}>
-    <div className="about-us-container container-fluid" style={divStyle}>
+    <Parallax strength={200} blur={{min:2,max:2}} bgImage={bgImg} >
+    <div className="about-us-container container-fluid" >
     <div className="blur-div">
 
       <div className="about-us-box">
@@ -21,6 +23,7 @@ const aboutUs = () => {
     </div>
     </div>
     </div>
+    </Parallax>
     // </div>
   );
 };
