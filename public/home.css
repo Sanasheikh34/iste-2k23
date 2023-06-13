@@ -1,5 +1,6 @@
 .container-fluid {
     padding: 2% 5% 6%;
+    height: 90vh;
   }
   
   .row{
@@ -60,15 +61,26 @@
 
   } */
 
-  .about-us-container {
-    position: relative;
+  .about-us-bg-img{
     height: 100vh;
+    width: auto;
+    object-fit: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../src/static/images/teamiste-jan2k23.webp");
+    background-attachment: fixed;
+  }
+
+
+  .about-us-container {
+    position: relative;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("../src/static/images/teamiste-jan2k23.webp");
     background-size: cover;
-    background-position: center;
+    background-position: center; */
   }
   
   .blur-div {
