@@ -61,9 +61,20 @@
 
   } */
 
+  .about-us-bg-img{
+    height: 100vh;
+    width: auto;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+  }
+
+
   .about-us-container {
     position: relative;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
