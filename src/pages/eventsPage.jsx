@@ -1,8 +1,14 @@
 import React from 'react'
+import {motion} from "framer-motion/dist/framer-motion"
 
 const eventsPage = () => {
   return (
-      <div className="container">
+      <motion.div className="container"
+    inital = {{opacity:0}}
+    animate = {{opacity:1}}
+    exit = {{opacity:0}}
+    transition = {{duration:0.5}} 
+>
         <header className="header">
           <h1 className="logo">ISTE-NITH</h1>
           <nav className="nav">
@@ -60,7 +66,7 @@ const eventsPage = () => {
         <footer className="footer">
           <p>&copy; 2023 ISTE | Indian Society for Technical Education</p>
         </footer>
-      </div>
+      </motion.div>
   )
 }
 

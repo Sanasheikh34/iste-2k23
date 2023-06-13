@@ -1,14 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
 
-import HomePage from './pages/home';
-import EventPage from "./pages/eventsPage"
-import MembersPage from "./pages/membersPage.jsx"
-import ImageGalleryPage from './pages/ImageGalleryPage';
-import GalleryPageWrapper from './components/GalleryPageWrapper';
 import Navbar from './components/navbar';
 import Headroom from 'react-headroom';
 import AnimatedCursor from './components/animatedCursor';
+import AnimatedRoutes from './components/AnimatedRoutes';
 
 const App = () => {
 
@@ -20,7 +16,7 @@ const App = () => {
     <Headroom>
       <Navbar />
     </Headroom>
-      <Routes>
+      {/* <Routes>
       
         <Route path="/" element={<HomePage />} />
         <Route path="/events" element={<EventPage />} />
@@ -34,7 +30,8 @@ const App = () => {
             </GalleryPageWrapper>
           }
         />
-      </Routes>
+      </Routes> */}
+      <AnimatedRoutes />
     </Router>
 
     </>
