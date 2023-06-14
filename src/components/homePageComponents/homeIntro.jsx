@@ -28,7 +28,7 @@ const HomeIntro = () => {
     animate = {mainControls}
     transition = {{duration:0.5,delay:0.25}}
     >
-    
+     
       <div className="row">
         <div className="left-content">
           <img src={Logo} alt="" className="intro-logo" />

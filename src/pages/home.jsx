@@ -3,6 +3,7 @@ import HomeIntro from '../components/homePageComponents/homeIntro'
 import MessageWidget from '../components/ChatBot'
 import AboutUs from "../components/homePageComponents/aboutUs"
 import {motion} from "framer-motion/dist/framer-motion"
+import Domains from '../components/homePageComponents/domains'
 
 const HomePage = () => {
   return (
@@ -14,7 +15,7 @@ const HomePage = () => {
     >
     <HomeIntro />
     <AboutUs />
-    <HomeIntro />
+    <Domains />
     <MessageWidget />
     </motion.div>
   );
