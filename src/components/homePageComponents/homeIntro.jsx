@@ -28,15 +28,14 @@ const HomeIntro = () => {
     animate = {mainControls}
     transition = {{duration:0.5,delay:0.25}}
     >
-    
+     
       <div className="row">
         <div className="left-content">
           <img src={Logo} alt="" className="intro-logo" />
           <h1>ISTE</h1>
         </div>
         <div className="right-content"> 
-        {/* <GraphicAnimation animationData={animationData} /> */}
-          {/* Add content for the right column */}
+          <GraphicAnimation animationData={animationData} />
         </div>
       </div>
       
