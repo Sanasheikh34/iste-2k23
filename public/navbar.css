@@ -70,7 +70,7 @@ list-style-type: none;
   }
   
   .navbar a {
-    color: var(--link-color);
+    color: var(--body_color);
   }
   .logo {
     font-size: 30px;

@@ -1,9 +1,10 @@
 import React,{useEffect,useRef} from 'react';
-import Logo from '../../static/images/iste-logo-blue.png';
 import GraphicAnimation from '../graphicAnimation';
-import animationData from "../../static/svgs/intro-animation-light.json"
+import animationData from "../../static/svgs/intro-animation-light.json";
 // import BackgroundParticles from '../BackgroundParticles';
-import {motion,useInView,useAnimation} from "framer-motion/dist/framer-motion"
+import {motion,useInView,useAnimation} from "framer-motion/dist/framer-motion";
+
+const Logo= require('../../static/images/iste-logo.png');
 
 const HomeIntro = () => {
 
@@ -32,7 +33,7 @@ const HomeIntro = () => {
       <div className="row">
         <div className="left-content">
           <img src={Logo} alt="" className="intro-logo" />
-          <h1>ISTE</h1>
+          <h1>ISTE NITH</h1>
         </div>
         <div className="right-content"> 
           <GraphicAnimation animationData={animationData} />

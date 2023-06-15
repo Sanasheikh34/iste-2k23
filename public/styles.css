@@ -38,10 +38,10 @@
 }
 
 [data-theme="dark"]{
-  --body-background : #000;
+  --body-background : #23272f;
   --body-darker-background : #555;
   --body_color : #fff;
-  --link-color : cyan;
+  --link-color : #129eeb;
   --color-text-primary: #dddddd;
   --color-text-secondary: #bfbfbf;
   --color-text-tertiary: #7e7e7e;
