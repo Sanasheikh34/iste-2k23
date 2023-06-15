@@ -1,16 +1,9 @@
 import React,{useEffect,useRef} from 'react';
-import Logo from '../../static/images/iste-logo-blue.png';
-
 import GraphicAnimation from '../graphicAnimation';
-
-
-import animationData from "../../static/svgs/intro-animation-light.json"
 import techAnimation from "../../static/svgs/tech-animation.json"
 import prAnimation from "../../static/svgs/pr-animation.json"
 import designAnimation from "../../static/svgs/design-animation.json"
 import financeAnimation from "../../static/svgs/finance-animation.json"
-
-// import BackgroundParticles from '../BackgroundParticles';
 import {motion,useInView,useAnimation} from "framer-motion/dist/framer-motion"
 
 const domains = () => {

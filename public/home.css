@@ -1,6 +1,6 @@
 .container-fluid {
     padding: 2% 5% 6%;
-    height: 90vh;
+    min-height: 100vh;
   }
   
   .row{
@@ -111,6 +111,7 @@
 
   .domain-container{
     padding: 2% 2% 6%;
+    min-height: 80vh;
   }
 
   .domain-card{
@@ -137,7 +138,17 @@
   }
 
   /* Media query for screens less than 768px */
+  @media (max-width: 1100px) {
+    .domain-card {
+      flex-basis: 45%;
+      max-width: 45%;
+    }
+  }
+
   @media (max-width: 768px) {
+    .container-fluid{
+      height: 100vh;
+    }
     .row {
       flex-direction: column;
       text-align: center;
@@ -155,12 +166,6 @@
   }
   
   
-  @media (max-width: 1100px) {
-    .domain-card {
-      flex-basis: 45%;
-      max-width: 45%;
-    }
-  }
   
   @media (max-width: 600px) {
     .domain-card {
@@ -169,4 +174,7 @@
     }
   }
   
-  
+  @media (max-width: 450px) {
+    .container-fluid{
+      max-height: 10rem;
+    }}

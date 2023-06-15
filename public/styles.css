@@ -24,6 +24,7 @@
   
   /* Theme Colors */
   --body-background : #fff;
+  --body-darker-background : #bbb;
   --body_color : #000;
   --link-color : navy;
   --color-text-primary: #121212;
@@ -38,6 +39,7 @@
 
 [data-theme="dark"]{
   --body-background : #000;
+  --body-darker-background : #555;
   --body_color : #fff;
   --link-color : cyan;
   --color-text-primary: #dddddd;

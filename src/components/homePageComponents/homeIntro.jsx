@@ -35,8 +35,7 @@ const HomeIntro = () => {
           <h1>ISTE</h1>
         </div>
         <div className="right-content"> 
-        {/* <GraphicAnimation animationData={animationData} /> */}
-          {/* Add content for the right column */}
+          <GraphicAnimation animationData={animationData} />
         </div>
       </div>
       
