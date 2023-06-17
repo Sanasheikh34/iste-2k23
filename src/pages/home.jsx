@@ -2,7 +2,7 @@ import React from 'react'
 import HomeIntro from '../components/homePageComponents/homeIntro'
 import MessageWidget from '../components/ChatBot'
 import AboutUs from "../components/homePageComponents/aboutUs"
-import {motion} from "framer-motion/dist/framer-motion"
+import {motion} from "framer-motion"
 import Domains from '../components/homePageComponents/domains'
 import Events from "../components/homePageComponents/eventBrief"
 const HomePage = () => {
@@ -14,9 +14,9 @@ const HomePage = () => {
     transition = {{duration:0.5}} 
     >
     <HomeIntro />
+    <AboutUs />
     <Domains />
     <Events />
-    <AboutUs />
     <MessageWidget />
     </motion.div>
   );

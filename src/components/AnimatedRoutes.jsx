@@ -5,7 +5,7 @@ import EventPage from "../pages/eventsPage"
 import MembersPage from "../pages/membersPage.jsx"
 import ImageGalleryPage from '../pages/ImageGalleryPage';
 import GalleryPageWrapper from './GalleryPageWrapper';
-import { AnimatePresence } from 'framer-motion/dist/framer-motion';
+import { AnimatePresence } from 'framer-motion';
 
 const AnimatedRoutes = () => {
     const location = useLocation();

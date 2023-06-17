@@ -1,6 +1,6 @@
 import React from 'react'
 import ImageGallery from '../components/ImageGallery'
-import {motion} from "framer-motion/dist/framer-motion"
+import {motion} from "framer-motion"
 
 const ImageGalleryPage = () => {
   return (
