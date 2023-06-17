@@ -30,6 +30,7 @@
   --color-text-primary: #121212;
   --color-text-secondary: #191919;
   --color-text-tertiary: #2e2e2e;
+  --variant-color : var(--color-red);
   --scroll-start-color : var(--color-blue);
   --scroll-end-color : var(--color-dark-blue);
 
@@ -45,6 +46,7 @@
   --color-text-primary: #dddddd;
   --color-text-secondary: #bfbfbf;
   --color-text-tertiary: #7e7e7e;
+  --variant-color : var(--color-yellow);
   --scroll-start-color : var(--color-purple);
   --scroll-end-color : var(--color-dark-purple);
 

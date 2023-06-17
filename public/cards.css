@@ -28,6 +28,7 @@
   .cards-container .card {
     position: relative;
     margin: auto;
+    background-color: transparent;
   }
   
   .cards-container .card .face {

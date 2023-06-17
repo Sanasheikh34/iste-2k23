@@ -41,7 +41,7 @@ const Navbar = () => {
             <Link to="/members">Members</Link>
           </li>
           <li onClick={() => setMobile(false)}>
-            <Link to="/events">Events</Link>
+            <Link to="/event">Events</Link>
           </li>
           <li onClick={() => setMobile(false)}>
             <Link to="/gallery">Gallery</Link>
