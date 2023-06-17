@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router} from 'react-router-dom';
+import { HashRouter} from 'react-router-dom';
 
 import Navbar from './components/navbar';
 import Headroom from 'react-headroom';
@@ -12,9 +12,9 @@ const App = () => {
     <>
     {/* <DarkMode /> */}
     <AnimatedCursor />
-    <Router>
+    <HashRouter>
     <Headroom>
-      <Navbar />
+      <Navbar /> 
     </Headroom>
       {/* <Routes>
       
@@ -25,14 +25,14 @@ const App = () => {
         <Route
           path="/gallery"
           element={
-            <GalleryPageWrapper>
+            <GalleryPageWrapper> 
               <ImageGalleryPage />
             </GalleryPageWrapper>
           }
         />
       </Routes> */}
       <AnimatedRoutes />
-    </Router>
+    </HashRouter>
 
     </>
   );
