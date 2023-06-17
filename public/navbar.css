@@ -52,11 +52,14 @@
     
 } */
 
-a {
+.navbar a {
+    text-decoration: none;
+  }
+.navbar a:hover {
     text-decoration: none;
   }
 
-li {
+.navbar li {
 list-style-type: none;
 }
   
