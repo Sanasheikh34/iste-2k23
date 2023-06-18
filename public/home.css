@@ -2,6 +2,62 @@
     padding: 2% 5% 6%;
     min-height: 100vh;
   }
+
+  .animated-text{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+}
+
+.animated-text span{
+    position: relative;
+    text-transform: capitalize;
+}
+
+.animated-text span::before{
+    content: "FAMILY";
+    color: #ff7f50;
+    animation: words 10s infinite;
+}
+
+.animated-text span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 14px);
+    height: 100%;
+    background-color: var(--body-background);
+    border-left: 2px solid ;
+    right: -8px;
+    animation: cursor .8s infinite, typing 10s steps(14) infinite;
+}
+
+@keyframes cursor {
+    to{
+        border-left: 2px solid var(--body-background);
+    }
+}
+
+@keyframes words {
+  0%, 33% {
+    content: "FAMILY";
+  }
+  34%, 66% {
+    content: "ORGANISATION";
+  }
+  67%, 100% {
+    content: "TEAM";
+  }
+}
+
+@keyframes typing {
+   20%, 50%, 80% {
+    width: 0;
+  }
+  33%,66%,99% {
+    width: calc(100% + 8px);
+  }
+}
+
   
   .row{
     padding-top:70px ;
