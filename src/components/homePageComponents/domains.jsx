@@ -1,10 +1,12 @@
+// eslint-disable-next-line
 import React, { useEffect, useRef } from 'react';
+// eslint-disable-next-line
 import { motion, useInView, useAnimation } from "framer-motion"
 import GraphicAnimation from '../graphicAnimation';
 import techAnimation from "../../static/svgs/tech-animation.json";
 import prAnimation from "../../static/svgs/pr-animation.json";
 import designAnimation from "../../static/svgs/design-animation.json";
-import financeAnimation from "../../static/svgs/finance-animation.json";
+import financeAnimation from "../../static/svgs/finance-animation.json";  
 
 const Domains = () => {
 
