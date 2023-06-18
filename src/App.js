@@ -5,32 +5,18 @@ import Navbar from './components/navbar';
 import Headroom from 'react-headroom';
 import AnimatedCursor from './components/animatedCursor';
 import AnimatedRoutes from './components/AnimatedRoutes';
+import Preloader from './components/Preloader'
 
 const App = () => {
 
   return (
     <>
-    {/* <DarkMode /> */}
+    <Preloader /> 
     <AnimatedCursor />
     <HashRouter>
     <Headroom>
       <Navbar /> 
     </Headroom>
-      {/* <Routes>
-      
-        <Route path="/" element={<HomePage />} />
-        <Route path="/events" element={<EventPage />} />
-        <Route path="/members" element={<MembersPage />} />
-        <Route path="/blogs" element={<MembersPage />} />
-        <Route
-          path="/gallery"
-          element={
-            <GalleryPageWrapper> 
-              <ImageGalleryPage />
-            </GalleryPageWrapper>
-          }
-        />
-      </Routes> */}
       <AnimatedRoutes />
     </HashRouter>
 
