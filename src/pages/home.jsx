@@ -5,8 +5,10 @@ import AboutUs from "../components/homePageComponents/aboutUs"
 import {motion} from "framer-motion"
 import Domains from '../components/homePageComponents/domains'
 import Events from "../components/homePageComponents/eventBrief"
+
 const HomePage = () => {
   return (
+    <>
     <motion.div
     inital = {{opacity:0}}
     animate = {{opacity:1}}
@@ -19,6 +21,7 @@ const HomePage = () => {
     <Events />
     <MessageWidget />
     </motion.div>
+    </>
   );
 };
 
