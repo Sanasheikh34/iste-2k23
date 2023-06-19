@@ -22,18 +22,19 @@ const AboutUs = () => {
 
   return (
     <div ref={ref}>
-      <motion.div
+      <div
         style={divStyle}
         className='about-us-bg-img'
+              >
+        <motion.div className="about-us-container container-fluid"
         variants={{
           hidden: { opacity: 0, y: 75 },
           visible: { opacity: 1, y: 0 },
         }}
         initial="hidden"
         animate={mainControls}
-        transition={{ duration: 0.5, delay: 0.25 }}
-      >
-        <div className="about-us-container container-fluid">
+        transition={{ duration: 2, delay: 0.5 }}
+>
           <div className="blur-div">
             <div className="about-us-box">
               <h2>About Us</h2>
@@ -42,8 +43,8 @@ const AboutUs = () => {
               </p>
             </div>
           </div>
-        </div>
-      </motion.div>
+        </motion.div>
+      </div>
     </div>
   );
 };
