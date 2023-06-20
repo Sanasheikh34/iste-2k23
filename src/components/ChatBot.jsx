@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import "../CSS/ChatBot.css"
 const MessageWidget = () => {
   const [isWidgetOpen, setWidgetOpen] = useState(false);
 
