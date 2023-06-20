@@ -16,9 +16,9 @@ const HomePage = () => {
     transition = {{duration:0.5}} 
     >
     <HomeIntro />
-    <AboutUs />
     <Domains />
     <Events />
+    <AboutUs />
     <MessageWidget />
     </motion.div>
     </>

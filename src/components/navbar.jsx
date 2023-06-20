@@ -4,7 +4,7 @@ import DehazeIcon from '@mui/icons-material/Dehaze';
 import CloseIcon from '@mui/icons-material/Close';
 import DarkMode from "./DarkMode/DarkMode";
 
-const Logo= require('../static/images/iste-logo.png');
+const Logo_black= require('../static/images/iste-black.png');
 
 const Navbar = () => {
   const [mobile, setMobile] = useState(false);
@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-      <img src={Logo} alt="Logo" style={{'width':'9vh','padding':'1px'}}/>
+      <img src={Logo_black} alt="Logo" style={{'width':'9vh','padding':'1px'}}/>
         <button className="mobile-menu-icon" onClick={toggleMobileMenu}>
           {mobile ? <CloseIcon /> : <DehazeIcon />}
         </button>

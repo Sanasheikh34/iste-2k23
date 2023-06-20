@@ -11,7 +11,7 @@
   }
   
   .w3c__message--icon {
-    background-color: #129eeb;
+    background-color: #ff7f50;
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -97,7 +97,7 @@
   }
   
   .w3c__message-box--header {
-    background-color: #129eeb;
+    background-color: #ff7f50;
     color: #fff;
     padding: 20px;
   }
@@ -123,7 +123,7 @@
   
   .message-submit {
     margin-bottom: 10px;
-    background-color: #129eeb;
+    background-color: #ff7f50;
     color: white;
     border: none;
     padding: 10px;
