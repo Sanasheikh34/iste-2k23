@@ -12,7 +12,17 @@ import Img11 from "../static/images/hult11.JPG"
 import Img12 from "../static/images/hult12.JPG"
 import Img13 from "../static/images/hult13.JPG"
 import Img14 from "../static/images/hult14.JPG"
-
+import Img15 from "../static/images/pahal1.JPG"
+import Img16 from "../static/images/pahal2.JPG"
+import Img17 from "../static/images/pahal3.JPG"
+import Img18 from "../static/images/pahal4.JPG"
+import Img19 from "../static/images/pahal5.JPG"
+import Img20 from "../static/images/pahal6.JPG"
+import Img21 from "../static/images/pahal7.JPG"
+import Img22 from "../static/images/pahal8.JPG"
+import Img23 from "../static/images/pahal9.JPG"
+import Img24 from "../static/images/pahal10.JPG"
+import Img25 from "../static/images/pahal1.JPG"
 let data = [
     {
       id:1,
@@ -54,11 +64,11 @@ let data = [
       imgSrc: Img8,
       author:""
     },
-    // {
-      //   id:9,
-    //   imgSrc: Img9,
-    //   author:"Hult Prize"
-    // },
+    {
+        id:9,
+      imgSrc: Img9,
+      author:"Hult Prize"
+    },
     {
       id:10,
       imgSrc: Img10,
@@ -82,6 +92,61 @@ let data = [
     {
       id:12,
       imgSrc: Img12,
+      author:"Hult Prize"
+    },
+    {
+      id:15,
+      imgSrc: Img15,
+      author:"Hult Prize"
+    },
+    {
+      id:16,
+      imgSrc: Img16,
+      author:"Hult Prize"
+    },
+    {
+      id:17,
+      imgSrc: Img17,
+      author:"Hult Prize"
+    },
+    {
+      id:18,
+      imgSrc: Img18,
+      author:"Hult Prize"
+    },
+    {
+      id:19,
+      imgSrc: Img19,
+      author:"Hult Prize"
+    },
+    {
+      id:20,
+      imgSrc: Img20,
+      author:"Hult Prize"
+    },
+    {
+      id:11,
+      imgSrc: Img21,
+      author:"Hult Prize"
+    },
+    {
+      id:22,
+      imgSrc: Img22,
+      author:"Hult Prize"
+    },
+    {
+      id:23,
+      imgSrc: Img23,
+      author:"Hult Prize"
+    },
+    {
+      id:24,
+      imgSrc: Img24,
+      author:"Hult Prize"
+    },
+    {
+      id:25,
+      imgSrc: Img25,
       author:"Hult Prize"
     },
   ]
