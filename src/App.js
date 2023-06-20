@@ -5,13 +5,14 @@ import Navbar from './components/navbar';
 import Headroom from 'react-headroom';
 import AnimatedCursor from './components/animatedCursor';
 import AnimatedRoutes from './components/AnimatedRoutes';
+// eslint-disable-next-line
 import Preloader from './components/Preloader'
 
 const App = () => {
 
   return (
     <>
-    <Preloader /> 
+    {/* <Preloader />  */}
     <AnimatedCursor />
     <HashRouter>
     <Headroom>
