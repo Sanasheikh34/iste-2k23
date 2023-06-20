@@ -96,6 +96,10 @@
     transform: rotate(360deg) scale(1.2);
   }
   
+  .nith-text{
+    color: var(--link-color);
+  }
+
   .container {
     perspective: 1000px;
     height: 100vh;
@@ -153,30 +157,6 @@
   
   /* About Us */
 
-  /* .about-us-container{
-    height: 100vh;
-    display: flex;
-     justify-content: center;
-    align-items: center;
-    background-image: url(../src/static/images/teamiste-jan2k23.webp);
-    background-size: cover;
-    background-position: center;
-  }
-
-  .about-us-container::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    background-image: url(../src/static/images/teamiste-jan2k23.webp);
-    background-size: cover;
-    background-position: center;
-    backdrop-filter: blur(3px);
-
-  } */
 
   .about-us-bg-img{
     height: 100vh;
@@ -195,15 +175,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-image: url("../src/static/images/teamiste-jan2k23.webp");
-    background-size: cover;
-    background-position: center; */
   }
   
 
-  /* .blur-div{
-    backdrop-filter: blur(3px);
-  } */
   .about-us-box{
     backdrop-filter: blur(3px);
     width: 80%;

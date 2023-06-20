@@ -33,7 +33,7 @@ const AboutUs = () => {
         }}
         initial="hidden"
         animate={mainControls}
-        transition={{ duration: 2, delay: 0.5 }}
+        transition={{ duration: 1, delay: 0.25 }}
 >
           <div className="blur-div">
             <div className="about-us-box">
