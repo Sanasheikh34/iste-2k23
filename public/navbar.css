@@ -1,5 +1,12 @@
-
-
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  background-color : transparent;
+  /* box-shadow: rgba(111, 16, 125, 0.23) 0px 30px 30px -20px; */
+  padding: 0 20px; /* Added padding for spacing */
+}
 .navbar a {
     text-decoration: none;
     color: var(--link-color);
@@ -11,15 +18,7 @@
 .navbar li {
 list-style-type: none;
 }
-  
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 10vh;
-    /* box-shadow: rgba(111, 16, 125, 0.23) 0px 30px 30px -20px; */
-    padding: 0 20px; /* Added padding for spacing */
-  }
+
   
   .logo {
     font-size: 30px;

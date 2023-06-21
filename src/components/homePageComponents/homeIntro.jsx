@@ -4,8 +4,8 @@ import animationData from "../../static/svgs/intro-animation-light.json";
 // import BackgroundParticles from '../BackgroundParticles';
 
 const Logo= require('../../static/images/iste-logo.png');
-const Logo_Orange= require('../../static/images/iste-orange.png')
-const Logo_black= require('../../static/images/iste-black.png')
+// const Logo_Orange= require('../../static/images/iste-orange.png')
+// const Logo_black= require('../../static/images/iste-black.png')
 const HomeIntro = () => {
   return (
     <div>
