@@ -10,8 +10,11 @@ const eventBrief = () => {
         backgroundPosition: 'center',
       };
   return (
+    <>
+        {/* <div className="center-header-div">
+          <h2 className='center-heading'>Events</h2>
+        </div> */}
     <div className="cards-whole-container" style={divStyle}>
-
     <div class="cards-container">
     <div class="card">
       <div class="face face1">
@@ -57,6 +60,7 @@ const eventBrief = () => {
     
   </div>  
 </div>
+</>
   )
 }
 
