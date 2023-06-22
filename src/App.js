@@ -11,7 +11,7 @@ import Preloader from './components/Preloader'
 const App = () => {
 
   return (
-    <>
+    <>  
     <Preloader /> 
     <AnimatedCursor />
     <HashRouter>
