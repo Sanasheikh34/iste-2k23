@@ -5,6 +5,7 @@ import AboutUs from "../components/homePageComponents/aboutUs"
 import {motion} from "framer-motion"
 import Domains from '../components/homePageComponents/domains'
 import Events from "../components/homePageComponents/eventBrief"
+import IntroBackground from '../components/particlesBackground/introBackground'
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
     exit = {{opacity:0}}
     transition = {{duration:0.5}} 
     >
+    <IntroBackground />
     <HomeIntro />
     <AboutUs />
     <Domains />
