@@ -1,8 +1,8 @@
 
-import bgImg from "../../static/images/teamiste-jan2k23.webp"
+import bgImg from "../../static/images/bg-img-particles.png"
 import React, { useEffect, useRef } from 'react';
 import 'particles.js';
-import HomeIntro from "../homePageComponents/homeIntro"
+import Logo from "../../static/images/iste-logo.png"
 
 const ParticlesComponent = () => {
   const particlesContainerRef = useRef(null);
@@ -11,7 +11,7 @@ const ParticlesComponent = () => {
     if (particlesContainerRef.current) {
       window.particlesJS('particles-js', 
       
-      
+       
       
       {
         "particles": {
@@ -102,8 +102,8 @@ const ParticlesComponent = () => {
               }
             },
             "bubble": {
-              "distance": 400,
-              "size": 100,
+              "distance": 250,
+              "size": 50,
               "duration": 2,
               "opacity": 8,
               "speed": 3
@@ -142,6 +142,7 @@ const ParticlesComponent = () => {
         <img src={bgImg} class="intro-bg-img" alt="img" />  
         <div id="particles-js" ref={particlesContainerRef}>
         <h1>Hello</h1>
+        <img src={Logo} alt="logo" srcset="" class="iste-logo-particles"/>
         {/* <HomeIntro /> */}
         </div> 
     </section>
