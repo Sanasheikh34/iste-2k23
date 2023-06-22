@@ -8,7 +8,8 @@ const Logo= require('../../static/images/iste-logo.png');
 // const Logo_black= require('../../static/images/iste-black.png')
 const HomeIntro = () => {
   return (
-    <div>
+    <div > 
+
     <div className="intro-container container-fluid">
      
       <div className="row">

@@ -39,116 +39,116 @@ let data = [
       imgSrc: Img6,
       author:"Hult Prize"
     },
-    {
-      id:3,
-      imgSrc: Img3,
-      author:"Hult Prize"
-    },
-    {
-      id:4,
-      imgSrc: Img4,
-      author:"Hult Prize"
-    },
-    {
-      id:7,
-      imgSrc: Img7,
-      author:"Hult Prize"
-    },
-    {
-      id:5,
-      imgSrc: Img5,
-      author:"Hult Prize"
-    },
-    {
-      id:8,
-      imgSrc: Img8,
-      author:""
-    },
-    {
-        id:9,
-      imgSrc: Img9,
-      author:"Hult Prize"
-    },
-    {
-      id:10,
-      imgSrc: Img10,
-      author:"Hult Prize"
-    },
-    {
-      id:11,
-      imgSrc: Img11,
-      author:"Hult Prize"
-    },
-    {
-      id:13,
-      imgSrc: Img13,
-      author:""
-    },
-    {
-      id:14,
-      imgSrc: Img14,
-      author:"Hult Prize"
-    },
-    {
-      id:12,
-      imgSrc: Img12,
-      author:"Hult Prize"
-    },
-    {
-      id:15,
-      imgSrc: Img15,
-      author:"Hult Prize"
-    },
-    {
-      id:16,
-      imgSrc: Img16,
-      author:"Hult Prize"
-    },
-    {
-      id:17,
-      imgSrc: Img17,
-      author:"Hult Prize"
-    },
-    {
-      id:18,
-      imgSrc: Img18,
-      author:"Hult Prize"
-    },
-    {
-      id:19,
-      imgSrc: Img19,
-      author:"Hult Prize"
-    },
-    {
-      id:20,
-      imgSrc: Img20,
-      author:"Hult Prize"
-    },
-    {
-      id:11,
-      imgSrc: Img21,
-      author:"Hult Prize"
-    },
-    {
-      id:22,
-      imgSrc: Img22,
-      author:"Hult Prize"
-    },
-    {
-      id:23,
-      imgSrc: Img23,
-      author:"Hult Prize"
-    },
-    {
-      id:24,
-      imgSrc: Img24,
-      author:"Hult Prize"
-    },
-    {
-      id:25,
-      imgSrc: Img25,
-      author:"Hult Prize"
-    },
+    // {
+    //   id:3,
+    //   imgSrc: Img3,
+    //   author:"Hult Prize"
+    // },
+    // {
+    //   id:4,
+    //   imgSrc: Img4,
+    //   author:"Hult Prize"
+    // },
+    // {
+    //   id:7,
+    //   imgSrc: Img7,
+    //   author:"Hult Prize"
+    // },
+    // {
+    //   id:5,
+    //   imgSrc: Img5,
+    //   author:"Hult Prize"
+    // },
+    // {
+    //   id:8,
+    //   imgSrc: Img8,
+    //   author:""
+    // },
+    // {
+    //     id:9,
+    //   imgSrc: Img9,
+    //   author:"Hult Prize"
+    // },
+    // {
+    //   id:10,
+    //   imgSrc: Img10,
+    //   author:"Hult Prize"
+    // },
+    // {
+    //   id:11,
+    //   imgSrc: Img11,
+    //   author:"Hult Prize"
+    // },
+    // {
+    //   id:13,
+    //   imgSrc: Img13,
+    //   author:""
+    // },
+    // {
+    //   id:14,
+    //   imgSrc: Img14,
+    //   author:"Hult Prize"
+    // },
+    // {
+    //   id:12,
+    //   imgSrc: Img12,
+    //   author:"Hult Prize"
+    // },
+    // {
+    //   id:15,
+    //   imgSrc: Img15,
+    //   author:"Hult Prize"
+    // },
+    // {
+    //   id:16,
+    //   imgSrc: Img16,
+    //   author:"Hult Prize"
+    // },
+    // {
+    //   id:17,
+    //   imgSrc: Img17,
+    //   author:"Hult Prize"
+    // },
+    // {
+    //   id:18,
+    //   imgSrc: Img18,
+    //   author:"Hult Prize"
+    // },
+    // {
+    //   id:19,
+    //   imgSrc: Img19,
+    //   author:"Hult Prize"
+    // },
+    // {
+    //   id:20,
+    //   imgSrc: Img20,
+    //   author:"Hult Prize"
+    // },
+    // {
+    //   id:11,
+    //   imgSrc: Img21,
+    //   author:"Hult Prize"
+    // },
+    // {
+    //   id:22,
+    //   imgSrc: Img22,
+    //   author:"Hult Prize"
+    // },
+    // {
+    //   id:23,
+    //   imgSrc: Img23,
+    //   author:"Hult Prize"
+    // },
+    // {
+    //   id:24,
+    //   imgSrc: Img24,
+    //   author:"Hult Prize"
+    // },
+    // {
+    //   id:25,
+    //   imgSrc: Img25,
+    //   author:"Hult Prize"
+    // },
   ]
 
 export default data
