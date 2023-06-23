@@ -7,12 +7,14 @@ import AnimatedCursor from './components/animatedCursor';
 import AnimatedRoutes from './components/AnimatedRoutes';
 // eslint-disable-next-line
 import Preloader from './components/Preloader'
+// eslint-disable-next-line
+import Footer from './components/footer';
 
 const App = () => {
 
   return (
     <>  
-    <Preloader /> 
+    {/* <Preloader />  */}
     <AnimatedCursor />
     <HashRouter>
     <Headroom>
@@ -20,6 +22,7 @@ const App = () => {
     </Headroom>
       <AnimatedRoutes />
     </HashRouter>
+    <Footer />
 
     </>
   );
