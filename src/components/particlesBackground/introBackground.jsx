@@ -1,8 +1,13 @@
-
+import HomeIntro from "../homePageComponents/homeIntro"
 import bgImg from "../../static/images/bg-img-particles.png"
 import React, { useEffect, useRef } from 'react';
 import 'particles.js';
 import Logo from "../../static/images/iste-logo.png"
+
+import GraphicAnimation from '../graphicAnimation';
+import animationData from "../../static/svgs/intro-animation-light.json";
+
+// const Logo= require('../../static/images/iste-logo.png');
 
 const ParticlesComponent = () => {
   const particlesContainerRef = useRef(null);
@@ -16,7 +21,7 @@ const ParticlesComponent = () => {
       {
         "particles": {
           "number": {
-            "value": 1000,
+            "value": 500,
             "density": {
               "enable": true,
               "value_area": 800
@@ -45,13 +50,13 @@ const ParticlesComponent = () => {
             "random": false,
             "anim": {
               "enable": false,
-              "speed": 1,
+              "speed": 0.2,
               "opacity_min": 0.1,
               "sync": false
             }
           },
           "size": {
-            "value": 5,
+            "value": 2,
             "random": true,
             "anim": {
               "enable": false,
@@ -69,7 +74,7 @@ const ParticlesComponent = () => {
           },
           "move": {
             "enable": true,
-            "speed": 5,
+            "speed": 2,
             "direction": "none",
             "random": false,
             "straight": false,
@@ -86,11 +91,11 @@ const ParticlesComponent = () => {
           "events": {
             "onhover": {
               "enable": true,
-              "mode": "bubble"
+              "mode": "repulse"
             },
             "onclick": {
               "enable": true,
-              "mode": "push"
+              "mode": "grab"
             },
             "resize": true
           },
@@ -141,9 +146,37 @@ const ParticlesComponent = () => {
     <section className="topmost-container">
         <img src={bgImg} class="intro-bg-img" alt="img" />  
         <div id="particles-js" ref={particlesContainerRef}>
-        <h1>Hello</h1>
-        <img src={Logo} alt="logo" srcset="" class="iste-logo-particles"/>
-        {/* <HomeIntro /> */}
+          {/* <HomeIntro /> */}
+        {/* <img src={Logo} alt="logo" srcset="" class="iste-logo-particles"/> */}
+
+      <div className="iste-logo-particles">
+
+        <div className="intro-container container-fluid">
+        {/* <img src={Logo} alt="" className="intro-logo" />
+              <h1 style={{ 'font-family': "'Catamaran', sans-serif"}}>ISTE<span className="nith-text"> NITH</span></h1>
+              <div class="animated-text">
+                WE ARE <span></span>
+              </div>
+              <GraphicAnimation animationData={animationData} /> */}
+
+          {/* <div className="row">
+            <div className="left-content">
+              <img src={Logo} alt="" className="intro-logo" />
+              <h1 style={{ 'font-family': "'Catamaran', sans-serif"}}>ISTE<span className="nith-text"> NITH</span></h1>
+              <div class="animated-text">
+                WE ARE <span></span>
+              </div>
+            </div>
+            <div className="right-content"> 
+              <GraphicAnimation animationData={animationData} />
+            </div>
+          </div> */}
+          
+        </div>
+
+      </div>
+    
+    
         </div> 
     </section>
     </>

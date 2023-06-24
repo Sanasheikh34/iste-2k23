@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import profileData from '../data/memberData';
+// import Footer from './components/footer';
 
 const MembersPage = () => {
   const [selectedSection, setSelectedSection] = useState('finalYear');
@@ -104,16 +105,19 @@ const MembersPage = () => {
               <p>{profile.location}</p>
               <div className="team-social-links">
                 <a href={profile.instagram}>
-                  <InstagramIcon className="s-icon" />
+                  {/* <InstagramIcon className="s-icon" /> */}
+                  <InstagramIcon style={{ color: '#892be0', fontSize: '30px' }} />
                 </a>
                 <a href={profile.linkedin}>
-                  <LinkedInIcon className="s-icon" />
+                  {/* <LinkedInIcon className="s-icon" /> */}
+                  <LinkedInIcon style={{ color: '#892be0', fontSize: '30px' }} />
                 </a>
               </div>
             </div>
           </motion.div>
         ))}
       </div>
+      {/* <Footer /> */}
     </motion.div>
   );
 };
