@@ -88,16 +88,15 @@
     margin-bottom: 20px;
   } */
 
-  .iste-logo-particles{}
   .intro-logo {
     width: 14rem;
     margin-bottom: 20px;
     transition: transform 0.3s ease; /* Add a transition for a smooth effect */
   }
 
-  .intro-logo:hover {
+  /* .intro-logo:hover {
     transform: rotate(360deg) scale(1.2);
-  }
+  } */
   
   .nith-text{
     color: #129eeb;
@@ -272,6 +271,8 @@
   }
   
   @media (max-width: 450px) {
+      
+    
     .container-fluid{
       max-height: 10rem;
     }
@@ -283,7 +284,6 @@
       padding: 0;
     }
     .about-us-bg-img{
-      margin-top: 2.5rem;
       margin-bottom: 20px;
     }
   }

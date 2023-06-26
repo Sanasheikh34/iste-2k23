@@ -57,7 +57,7 @@ const ParticlesComponent = () => {
             }
           },
           "size": {
-            "value": 2,
+            "value": 1.3,
             "random": true,
             "anim": {
               "enable": false,
@@ -91,11 +91,11 @@ const ParticlesComponent = () => {
           "detect_on": "canvas",
           "events": {
             "onhover": {
-              "enable": true,
+              "enable": false,
               "mode": "repulse"
             },
             "onclick": {
-              "enable": true,
+              "enable": false,
               "mode": "grab"
             },
             "resize": true
@@ -158,7 +158,7 @@ const ParticlesComponent = () => {
           <img src={Logo} alt="" className="intro-logo" />
                 <h1 style={{ 'font-family': "'Catamaran', sans-serif", 'color':'white' }}>ISTE<span className="nith-text"> NITH</span></h1>
                 <div class="animated-text">
-                  <p style={{'color':'white' }}>WE ARE </p><span></span>
+                  <p style={{display: 'inline', color: 'white' }}>WE ARE </p><span></span>
                 </div>
           </div>
           <div className="right-content"> 
