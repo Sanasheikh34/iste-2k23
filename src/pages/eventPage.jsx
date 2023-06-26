@@ -5,7 +5,7 @@ import firstImage from "../static/images/test_wp1.jpg"
 import secondImage from "../static/images/test_wp2.jpg"
 import thirdImage from "../static/images/pahal_img.JPG"
 import fourthImage from "../static/images//test_wp3.jpg"
-
+import Footer from '../components/footer';
 
 const EventPage = () => {
 
@@ -111,7 +111,7 @@ const EventPage = () => {
 
 
 
-
+<Footer />
 </motion.div>  )
 }
 

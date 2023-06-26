@@ -1,5 +1,6 @@
 // eslint-disable-next-line
 import HomeIntro from "../homePageComponents/homeIntro"
+// eslint-disable-next-line
 import bgImg from "../../static/images/bg-img-particles.png"
 import React, { useEffect, useRef } from 'react';
 import 'particles.js';

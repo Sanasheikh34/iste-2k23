@@ -243,12 +243,12 @@
     }
     .row {
       flex-direction: column;
-      text-align: right;
+      text-align: center;
     }
   
     .left-content{
       width: 100%;
-      align-self: flex-end;
+      align-self: center;
       margin-bottom: 4rem;
     }
   

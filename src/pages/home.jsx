@@ -1,4 +1,5 @@
 import React from 'react'
+// eslint-disable-next-line
 import HomeIntro from '../components/homePageComponents/homeIntro'
 import MessageWidget from '../components/ChatBot'
 import AboutUs from "../components/homePageComponents/aboutUs"
@@ -6,6 +7,7 @@ import {motion} from "framer-motion"
 import Domains from '../components/homePageComponents/domains'
 import Events from "../components/homePageComponents/eventBrief"
 import IntroBackground from '../components/particlesBackground/introBackground'
+import Footer from '../components/footer';
 
 const HomePage = () => {
   return (
@@ -21,6 +23,7 @@ const HomePage = () => {
     <AboutUs />
     <Domains />
     <Events />
+    <Footer />
     <MessageWidget />
     </motion.div>
     </>

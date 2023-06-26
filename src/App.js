@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <>  
-    {/* <Preloader />  */}
+    <Preloader /> 
     <AnimatedCursor />
     <HashRouter>
     <Headroom>
@@ -22,7 +22,6 @@ const App = () => {
     </Headroom>
       <AnimatedRoutes />
     </HashRouter>
-    <Footer />
 
     </>
   );
