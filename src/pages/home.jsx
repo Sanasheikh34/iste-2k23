@@ -17,7 +17,7 @@ const HomePage = () => {
     transition = {{duration:0.5}} 
     >
     <IntroBackground />
-    <HomeIntro />
+    {/* <HomeIntro /> */}
     <AboutUs />
     <Domains />
     <Events />

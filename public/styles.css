@@ -21,6 +21,7 @@
   --color-dark-purple: #33085c;
   --color-green : #00D085;
   --color-white-text : #dddddd;
+  --dark-body-background :#23272f;
   
   /* Theme Colors */
   --body-background : #fff;
@@ -38,8 +39,8 @@
 }
 
 [data-theme="dark"]{
-  /* --body-background : #23272f; */
-  --body-background : #000;
+  --body-background : #23272f;
+  /* --body-background : #000; */
   --footer-background : #222;
   --body-darker-background : #555;
   --body_color : #fff;

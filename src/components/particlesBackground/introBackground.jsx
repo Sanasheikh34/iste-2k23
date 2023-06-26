@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import HomeIntro from "../homePageComponents/homeIntro"
 import bgImg from "../../static/images/bg-img-particles.png"
 import React, { useEffect, useRef } from 'react';
@@ -144,14 +145,29 @@ const ParticlesComponent = () => {
   return (
     <>
     <section className="topmost-container">
-        <img src={bgImg} class="intro-bg-img" alt="img" />  
+        {/* <img src={bgImg} class="intro-bg-img" alt="img" />   */}
         <div id="particles-js" ref={particlesContainerRef}>
           {/* <HomeIntro /> */}
         {/* <img src={Logo} alt="logo" srcset="" class="iste-logo-particles"/> */}
 
-      <div className="iste-logo-particles">
+    
+      <div className="intro-container iste-logo-particles">
+        <div className="row">
+          <div className="left-content">
 
-        <div className="intro-container container-fluid">
+          <img src={Logo} alt="" className="intro-logo" />
+                <h1 style={{ 'font-family': "'Catamaran', sans-serif", 'color':'white' }}>ISTE<span className="nith-text"> NITH</span></h1>
+                <div class="animated-text">
+                  <p style={{'color':'white' }}>WE ARE </p><span></span>
+                </div>
+          </div>
+          <div className="right-content"> 
+                <GraphicAnimation animationData={animationData} /> 
+          </div>
+          </div>
+
+
+        {/* <div className="intro-container container-fluid"> */}
         {/* <img src={Logo} alt="" className="intro-logo" />
               <h1 style={{ 'font-family': "'Catamaran', sans-serif"}}>ISTE<span className="nith-text"> NITH</span></h1>
               <div class="animated-text">
@@ -172,7 +188,7 @@ const ParticlesComponent = () => {
             </div>
           </div> */}
           
-        </div>
+        {/* </div> */}
 
       </div>
     

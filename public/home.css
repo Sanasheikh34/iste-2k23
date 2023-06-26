@@ -28,7 +28,7 @@
     position: absolute;
     width: calc(100% + 14px);
     height: 100%;
-    background-color: var(--body-background);
+    background-color: var(--dark-body-background);
     border-left: 2px solid ;
     right: -8px;
     animation: cursor .8s infinite, typing 10s steps(14) infinite;
@@ -36,7 +36,7 @@
 
 @keyframes cursor {
     to{
-        border-left: 2px solid var(--body-background);
+        border-left: 2px solid var(--dark-body-background);
     }
 }
 
@@ -75,6 +75,7 @@
   .right-content {
     flex: 1;
     text-align: center;
+    align-items: center;
   }
   
   .right-content {
@@ -87,6 +88,7 @@
     margin-bottom: 20px;
   } */
 
+  .iste-logo-particles{}
   .intro-logo {
     width: 14rem;
     margin-bottom: 20px;
@@ -98,7 +100,7 @@
   }
   
   .nith-text{
-    color: var(--link-color);
+    color: #129eeb;
   }
 
   .container {
@@ -242,11 +244,12 @@
     }
     .row {
       flex-direction: column;
-      text-align: center;
+      text-align: right;
     }
   
     .left-content{
       width: 100%;
+      align-self: flex-end;
       margin-bottom: 4rem;
     }
   
