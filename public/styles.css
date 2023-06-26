@@ -21,6 +21,7 @@
   --color-dark-purple: #33085c;
   --color-green : #00D085;
   --color-white-text : #dddddd;
+  --dark-body-background :#131418;
   
   /* Theme Colors */
   --body-background : #fff;
@@ -32,24 +33,25 @@
   --color-text-secondary: #191919;
   --color-text-tertiary: #2e2e2e;
   --variant-color : var(--color-red);
-  --scroll-start-color : var(--color-purple);
-  --scroll-end-color : var(--color-dark-purple);
+  --scroll-start-color : var(--color-blue);
+  --scroll-end-color : var(--color-dark-blue);
 
 }
 
 [data-theme="dark"]{
-  /* --body-background : #23272f; */
-  --body-background : #000;
+  --body-background : #131418;
+  /* --body-background : #000; */
   --footer-background : #222;
   --body-darker-background : #555;
   --body_color : #fff;
-  --link-color : #129eeb;
+  /* --link-color : #129eeb; */
+  --link-color : #892be0;
   --color-text-primary: #dddddd;
   --color-text-secondary: #bfbfbf;
   --color-text-tertiary: #7e7e7e;
   --variant-color : var(--color-yellow);
-  --scroll-start-color : var(--color-blue);
-  --scroll-end-color : var(--color-dark-blue);
+  --scroll-start-color : var(--color-purple);
+  --scroll-end-color : var(--color-dark-purple);
 
 }
 
