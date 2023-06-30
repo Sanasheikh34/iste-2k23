@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <>  
-    <Preloader /> 
+    {/* <Preloader />  */}
     <AnimatedCursor />
     <HashRouter>
     <Headroom>

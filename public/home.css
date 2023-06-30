@@ -181,7 +181,7 @@
   
 
   .about-us-box{
-    backdrop-filter: blur(3px);
+    backdrop-filter: brightness(30%);
     width: 80%;
     margin: auto;
     padding: 2% 5% 3%;

@@ -34,19 +34,19 @@ const Navbar = () => {
           {mobile ? <CloseIcon /> : <DehazeIcon />}
         </button>
         <ul className={mobile ? "nav-links-mobile" : "nav-links"}>
-          <li onClick={() => setMobile(false)}>
+          <li onClick={() => setMobile(false)} className="navlink-text">
             <Link to="/">Home</Link>
           </li>
-          <li onClick={() => setMobile(false)}>
+          <li onClick={() => setMobile(false)} className="navlink-text">
             <Link to="/members">Members</Link>
           </li>
-          <li onClick={() => setMobile(false)}>
+          <li onClick={() => setMobile(false)} className="navlink-text">
             <Link to="/event">Events</Link>
           </li>
-          <li onClick={() => setMobile(false)}>
+          <li onClick={() => setMobile(false)} className="navlink-text">
             <Link to="/gallery">Gallery</Link>
           </li>
-          <li onClick={() => setMobile(false)}>
+          <li onClick={() => setMobile(false)} className="navlink-text">
             <Link to="/blog">Blog</Link>
           </li>
           <li onClick={() => setMobile(false)}>
