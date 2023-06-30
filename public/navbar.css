@@ -47,6 +47,9 @@
   cursor: pointer;
   text-transform: capitalize;
 }
+.navlink-text{
+  transform: translateY(10px);
+}
 
 .mobile-menu-icon {
   display: none;
