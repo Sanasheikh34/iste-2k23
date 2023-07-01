@@ -5,6 +5,7 @@ import EventPage from "../pages/eventPage"
 import MembersPage from "../pages/membersPage.jsx"
 import ImageGalleryPage from '../pages/ImageGalleryPage';
 import BlogPage from '../pages/blogPage';
+import BlogDetails from './blogDetails';
 import GalleryPageWrapper from './GalleryPageWrapper';
 import { AnimatePresence } from 'framer-motion';
 
@@ -17,6 +18,7 @@ const AnimatedRoutes = () => {
             <Route path="/events" element={<EventPage />} />
             <Route path="/members" element={<MembersPage />} />
             <Route path="/blogs" element={<BlogPage />} />
+            <Route path="/blog-details" element={<BlogDetails />} />
             <Route
             path="/gallery"
             element={

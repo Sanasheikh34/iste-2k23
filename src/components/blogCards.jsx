@@ -1,13 +1,16 @@
 // eslint-disable-next-line
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+// import vim_plugins from '../data/Blogs/vim_plugins/vim_plugins.md';
 
 
 export function BlogCard(props) {
 
 const navigate = useNavigate()
 const navigatetoblogDetails = () => {
-    navigate('/blog-details', { state: { blogProps: props } }); 
+    // navigate('/blog-details', { state: { blogProps: props } }); 
+    navigate('/blog-details', { state: props.mdfile });
+
   };
   
 const navigatetoTagsPage = () => {
@@ -32,7 +35,7 @@ return (
           ))}
         </div>
       </div>
-        <h3 className='blogCompany'>{props.company}</h3>
+        <h3 className='blogCompany'>{props.author}</h3>
         <div className="blog-description">
             {props.description}
         </div>

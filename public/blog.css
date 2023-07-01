@@ -116,15 +116,16 @@
     width: 100%;
     position: relative;
     margin: auto;
+    padding-bottom: 2rem;
   }
-  .search-bar input{
 
+  .search-bar input{
     position: relative;
     font-size: 1.7rem;
     width: 60%;
     border-radius: 5px;
     margin: auto;
-    color: var(--color-grey-primary);
+    color: black;
   }
 
   .search-icon {

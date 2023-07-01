@@ -13,6 +13,16 @@ import SearchIcon from '@mui/icons-material/Search';
 
 const BlogPage = () => {
 
+  const [markdown, setMarkdown] = useState('');
+
+  useEffect(() => {
+    // Fetch the MD file content
+    fetch(vim_plugins)
+      .then((response) => response.text())
+      .then((text) => setMarkdown(text));
+  }, []);
+
+
   const [searchQuery, setSearchQuery] = useState('');
   const [filteredblogs, setFilteredblogs] = useState(blogData);
 
@@ -78,14 +88,20 @@ const BlogPage = () => {
                         key={contents.id}
                         image={contents.image}
                         blog_title={contents.blog_title}
-                        company={contents.company}
+                        author={contents.author}
                         tags = {contents.tags}
                         description = {contents.description}
+                        mdfile = {contents.mdfile}
                         // onSaveCard={handleSaveCard} 
                         style={{ flex: '1 10 50%', maxWidth: '50%'  }}
                     />
                 ))}
             </div>
+
+
+    <div className="markdown-container">
+      <ReactMarkdown>{markdown}</ReactMarkdown>
+    </div>
 
 
 
