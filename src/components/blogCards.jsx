@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 // import vim_plugins from '../data/Blogs/vim_plugins/vim_plugins.md';
 
-
 export function BlogCard(props) {
 
 const navigate = useNavigate()

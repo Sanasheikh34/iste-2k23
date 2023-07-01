@@ -24,6 +24,7 @@ const App = () => {
       <AnimatedRoutes />
     </HashRouter>
 
+
     </>
   );
 };
