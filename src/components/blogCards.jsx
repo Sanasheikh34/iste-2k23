@@ -18,10 +18,10 @@ const navigatetoTagsPage = () => {
 
 const customClassName = props.work_type;
 return (
-<div className='blogList'>
+<div className='blogList' onClick={navigatetoblogDetails}>
   <div key={props.id} className={`${customClassName} blogCard`} >
     <div className='blogCard__content'>
-      <div className='blogCard__header' onClick={navigatetoblogDetails}>
+      <div className='blogCard__header' >
         <img src={props.image} alt='blog-img' className='blogImage' />
         <h3 className='blogName '>{props.blog_title}</h3>
       </div>
