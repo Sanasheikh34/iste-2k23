@@ -41,13 +41,13 @@ const Navbar = () => {
             <Link to="/members">Members</Link>
           </li>
           <li onClick={() => setMobile(false)} className="navlink-text">
-            <Link to="/event">Events</Link>
+            <Link to="/events">Events</Link>
           </li>
           <li onClick={() => setMobile(false)} className="navlink-text">
             <Link to="/gallery">Gallery</Link>
           </li>
           <li onClick={() => setMobile(false)} className="navlink-text">
-            <Link to="/blog">Blog</Link>
+            <Link to="/blogs">Blog</Link>
           </li>
           <li onClick={() => setMobile(false)}>
             <DarkMode />
