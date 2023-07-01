@@ -4,23 +4,10 @@ import { motion } from 'framer-motion';
 import blogData from "../data/blogData"
 import { BlogCard } from '../components/blogCards';
 // eslint-disable-next-line
-import ReactMarkdown from 'react-markdown';
-// eslint-disable-next-line
-import vim_plugins from '../data/Blogs/vim_plugins/vim_plugins.md';
-// import remarkGfm from 'remark-gfm'
 import SearchIcon from '@mui/icons-material/Search';
 
 
 const BlogPage = () => {
-
-  const [markdown, setMarkdown] = useState('');
-
-  useEffect(() => {
-    // Fetch the MD file content
-    fetch(vim_plugins)
-      .then((response) => response.text())
-      .then((text) => setMarkdown(text));
-  }, []);
 
 
   const [searchQuery, setSearchQuery] = useState('');
@@ -99,9 +86,6 @@ const BlogPage = () => {
             </div>
 
 
-    <div className="markdown-container">
-      <ReactMarkdown>{markdown}</ReactMarkdown>
-    </div>
 
 
 

@@ -13,8 +13,7 @@
     max-width: 30rem;
     max-height: 50rem;
     transition: 0.3s;
-    border: 2px  beige;
-    box-shadow: 0.1rem 0.1rem 0  #bbbbbb;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem   #bbbbbb;
   }
   
   .blogCard:hover {
