@@ -5,8 +5,10 @@ import MessageWidget from '../components/ChatBot'
 import AboutUs from "../components/homePageComponents/aboutUs"
 import {motion} from "framer-motion"
 import Domains from '../components/homePageComponents/domains'
+// eslint-disable-next-line
 import Events from "../components/homePageComponents/eventBrief"
 import IntroBackground from '../components/particlesBackground/introBackground'
+import ContactUs from '../components/homePageComponents/contactUs'
 import Footer from '../components/footer';
 
 const HomePage = () => {
@@ -22,7 +24,8 @@ const HomePage = () => {
     {/* <HomeIntro /> */}
     <AboutUs />
     <Domains />
-    <Events />
+    {/* <Events /> */}
+    <ContactUs />
     <Footer />
     <MessageWidget />
     </motion.div>

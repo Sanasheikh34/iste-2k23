@@ -19,7 +19,7 @@
   .blogCard:hover {
     transition: ease 0.5s;
     transform: translateY(-0.5rem);
-    box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+    box-shadow: 0.5rem 0.75rem 1.5rem var(--color-text-tertiary);
     background-image: linear-gradient(to right, #8F4DC5,  #ff3988, #ff31a3, #ff29bf,#FE2198);
     background-clip: text;
     -webkit-background-clip: text;
