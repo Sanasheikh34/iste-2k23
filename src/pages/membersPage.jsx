@@ -104,14 +104,10 @@ const MembersPage = () => {
               <p>{profile.location}</p>
               <div className="team-social-links">
                 <a href={profile.instagram}>
-                  <InstagramIcon
-                    style={{ color: "#892be0", fontSize: "30px" }}
-                  />
+                  <InstagramIcon style={{ color: "white", fontSize: "30px" }} />
                 </a>
                 <a href={profile.linkedin}>
-                  <LinkedInIcon
-                    style={{ color: "#892be0", fontSize: "30px" }}
-                  />
+                  <LinkedInIcon style={{ color: "white", fontSize: "30px" }} />
                 </a>
               </div>
             </div>
