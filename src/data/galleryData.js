@@ -23,6 +23,17 @@ import Img22 from "../static/images/pahal8.JPG";
 import Img23 from "../static/images/pahal9.JPG";
 import Img24 from "../static/images/pahal10.JPG";
 import Img25 from "../static/images/pahal1.JPG";
+import Img26 from "../static/images/Hult_Images/Hult_01N.jpg";
+import Img27 from "../static/images/Hult_Images/Hult_02N.jpg";
+import Img28 from "../static/images/Hult_Images/Hult_03N.jpg";
+import Img29 from "../static/images/Hult_Images/Hult_04N.jpg";
+import Img30 from "../static/images/Hult_Images/Hult_05N.jpg";
+import Img31 from "../static/images/Hult_Images/Hult_06N.jpg";
+import Img32 from "../static/images/Hult_Images/Hult_07N.jpg";
+import Img33 from "../static/images/Hult_Images/Hult_08N.jpg";
+import Img34 from "../static/images/Hult_Images/Hult_09N.jpg";
+import Img35 from "../static/images/Hult_Images/Hult_10N.jpg";
+import Img36 from "../static/images/Hult_Images/Hult_11N.jpg";
 let data = [
   {
     id: 1,
@@ -147,6 +158,61 @@ let data = [
   {
     id: 25,
     imgSrc: Img25,
+    author: "Hult Prize",
+  },
+  {
+    id: 26,
+    imgSrc: Img26,
+    author: "Hult Prize",
+  },
+  {
+    id: 27,
+    imgSrc: Img27,
+    author: "Hult Prize",
+  },
+  {
+    id: 28,
+    imgSrc: Img28,
+    author: "Hult Prize",
+  },
+  {
+    id: 29,
+    imgSrc: Img29,
+    author: "Hult Prize",
+  },
+  {
+    id: 30,
+    imgSrc: Img30,
+    author: "Hult Prize",
+  },
+  {
+    id: 31,
+    imgSrc: Img31,
+    author: "Hult Prize",
+  },
+  {
+    id: 32,
+    imgSrc: Img32,
+    author: "Hult Prize",
+  },
+  {
+    id: 33,
+    imgSrc: Img33,
+    author: "",
+  },
+  {
+    id: 34,
+    imgSrc: Img34,
+    author: "Hult Prize",
+  },
+  {
+    id: 35,
+    imgSrc: Img35,
+    author: "Hult Prize",
+  },
+  {
+    id: 36,
+    imgSrc: Img36,
     author: "Hult Prize",
   },
 ];
