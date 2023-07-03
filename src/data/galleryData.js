@@ -23,6 +23,11 @@ import Img22 from "../static/images/pahal8.JPG";
 import Img23 from "../static/images/pahal9.JPG";
 import Img24 from "../static/images/pahal10.JPG";
 import Img25 from "../static/images/pahal1.JPG";
+import Img37 from "../static/images/Technex 01.jpg";
+import Img38 from "../static/images/Technex 02.jpg";
+import Img39 from "../static/images/Technex 03.jpg";
+import Img40 from "../static/images/Technex 04.jpg";
+import Img41 from "../static/images/Technex 05.jpg";
 let data = [
   {
     id: 1,
@@ -148,6 +153,31 @@ let data = [
     id: 25,
     imgSrc: Img25,
     author: "Hult Prize",
+  },
+   {
+    id: 37,
+    imgSrc: Img37,
+    author: "Technex",
+  },
+  {
+    id: 38,
+    imgSrc: Img38,
+    author: "Technex",
+  },
+  {
+    id: 39,
+    imgSrc: Img39,
+    author: "Technex",
+  },
+  {
+    id: 40,
+    imgSrc: Img40,
+    author: "Technex",
+  },
+  {
+    id: 41,
+    imgSrc: Img41,
+    author: "Technex",
   },
 ];
 
