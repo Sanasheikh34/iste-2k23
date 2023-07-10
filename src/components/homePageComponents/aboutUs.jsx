@@ -17,7 +17,7 @@ const AboutUs = () => {
   const divStyle = {
     backgroundImage: `url(${bgImg})`,
     backgroundSize: "cover",
-    backgroundPosition: "center",
+    backgroundPosition: "center", 
   };
 
   return (
